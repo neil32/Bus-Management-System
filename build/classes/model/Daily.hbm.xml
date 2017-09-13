@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 22-Mar-2017 22:46:00 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="model.Daily" table="DAILY">
+    <id name="b_no" type="int">
+            <column name="B_NO" />
+            <generator class="assigned" />
+        </id>
+        <property name="route_id" type="int">
+            <column name="ROUTE_ID" />     
+        </property>
+        <property name="d_name" type="java.lang.String">
+            <column name="D_NAME" />
+        </property>
+        <property name="checkpoint" type="java.lang.String">
+            <column name="CHECKPOINT" />
+        </property>
+        <property name="shift" type="int">
+            <column name="SHIFT" />
+        </property>
+    </class>
+</hibernate-mapping>

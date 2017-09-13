@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 24-Mar-2017 05:34:42 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="model.Driver" table="DRIVER">
+        <id name="d_id" type="int">
+            <column name="D_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="d_name" type="java.lang.String">
+            <column name="D_NAME" />
+        </property>
+    </class>
+</hibernate-mapping>

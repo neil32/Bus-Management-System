@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 24-Mar-2017 05:34:42 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="model.Bus" table="BUS">
+        <id name="b_no" type="int">
+            <column name="B_NO" />
+            <generator class="assigned" />
+        </id>
+        <property name="number_plate" type="java.lang.String">
+            <column name="NUMBER_PLATE" />
+        </property>
+    </class>
+</hibernate-mapping>

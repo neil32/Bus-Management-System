@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 24-Mar-2017 05:34:42 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="model.Route" table="ROUTE">
+        <id name="route_id" type="int">
+            <column name="ROUTE_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="checkpoints" type="java.lang.String">
+            <column name="CHECKPOINTS" />
+        </property>
+    </class>
+</hibernate-mapping>
